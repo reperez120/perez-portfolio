@@ -1,0 +1,77 @@
+
+.email {
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-image: url("https://cdn.icon-icons.com/icons2/1416/PNG/512/basic-mail_97695.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .email {
+  height: 8rem;  
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 0rem;
+  background-image: url("https://cdn.icon-icons.com/icons2/1416/PNG/512/basic-mail_97695.png");
+  }
+}  
+
+.github {
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-image: url("https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .github {
+  height: 8rem;  
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 0rem;
+  background-image: url("https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png");
+  }
+}  
+
+.linkedin {
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-image: url("https://image.flaticon.com/icons/svg/34/34227.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .linkedin {
+  height: 5rem;  
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 0rem;
+  background-image: url("https://image.flaticon.com/icons/svg/34/34227.svg");
+  }
+}  
+
+.contacts > li {
+    list-style-type: none;
+}
+  

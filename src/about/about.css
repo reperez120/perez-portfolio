@@ -1,0 +1,23 @@
+.aboutMeImage {
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-image: url("https://user-images.githubusercontent.com/46304321/61715559-e4d82100-ad4c-11e9-8915-0ca77959d97c.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+  
+@media screen and (max-width: 480px) {
+    .aboutMeImage {
+    height: 8rem;  
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    background-image: url("https://user-images.githubusercontent.com/46304321/61715559-e4d82100-ad4c-11e9-8915-0ca77959d97c.jpeg");
+  }
+}  
