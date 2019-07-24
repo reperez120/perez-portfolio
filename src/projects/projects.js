@@ -14,7 +14,7 @@ class Projects extends Component {
         <div className='Projects'>
             <header className='projectsHeader'>
                 <h1>Projects</h1>
-                <h3>Below is a selection of apps I developed.</h3>
+                <h3>Below is a selection of apps I developed. For each, I have given the title, description, a list of technologies used, and links to live versions and GitHub repos. </h3>
             </header>
             <br></br>
             <main>
@@ -22,15 +22,15 @@ class Projects extends Component {
                 What'll It Be?
               </h2>
                 <p>
-                  What'll It Be is a full stack app that recommends drinks based on weather. This app recommends a beverage and provide its recipe to the user based on their location.
+                  What'll It Be is a full stack app that recommends drinks based on weather. This app recommends a beverage and provide its recipe to the user based on the temperature of their location.
                   It is comprised of an API that contains a list of beverage recipes that are organized by temperature. Client side, users input their location, which is sent to a gecoding and then a temperature API. 
-                  A drink is returned to users based on the temperature of the location they entered.
+                  A drink is returned to users based on the temperature of the location they entered. If the temperature of their location is above a certain degree mark, a cold drink recipe is returned; if the temperature is below a certain degree mark, a hot drink recipe is returned.
                 </p>
                 <div 
                   className="WhatllItBeImage">
                 </div>
                     <h3>Technologies Used:</h3> 
-                   <h4>HTML, CSS, JavaScript, React, PostGresSQL</h4>
+                   <h4>HTML, CSS, JavaScript, React, Node, Express, PostGreSQL</h4>
                   <h4> 
                     <a href="https://whatll-it-be-app.reperez120.now.sh/" 
                     target="_blank"> 
@@ -53,13 +53,13 @@ class Projects extends Component {
                 Cat-A-Log
               </h2>
                 <p>
-                The Cat-A-Log app uses the Cat API and the PetFinder API to display a list of cats with selected traits that are up for adoption in a specified area. The user selects desired traits in checkboxes and then inputs the desired zip code into an input box. Once the user clicks the form’s submit button, an event listener is triggered that fetches the Cat API, which contains a list of cat breeds and their characteristics, and returns an array of breeds that have the traits the user selected in the checkbox. The app next fetches the PetFinder API, which contains a list of pets up for adoption, and uses the breeds that were returned from the Cat API and the geographic area the user input as query parameters to return a list of cats with desired traits up for adoption in the user’s geographic area. The app then displays the returned array of cats’ names, photos, descriptions, and links to their adoption pages.
+                The Cat-A-Log app uses the Cat API and the PetFinder API to display a list of cats with user-selected traits that are up for adoption in a specified area. The user selects desired traits in checkboxes and then inputs their zip code into an input form. Once the user clicks the form’s submit button, an event listener is triggered that fetches the Cat API, which contains a list of cat breeds and their characteristics, and returns an array of breeds that have the traits the user selected in the checkbox. The app next fetches the PetFinder API, which contains a list of pets up for adoption, and uses the breeds that were returned from the Cat API and the geographic area the user input as query parameters to return a list of cats with desired traits up for adoption in the user’s geographic area. The app then displays the returned array of cats’ names, photos, descriptions, and links to their adoption pages.
                 </p>
                 <div 
                   className="CatALogImage">
                 </div>
                 <h3>Technologies Used: </h3> 
-                <h4>HTML, CSS, JavaScript, JQuery</h4>
+                <h4>HTML, CSS, JavaScript, JQuery, APIs</h4>
               <h4> 
                 <a href="https://reperez120.github.io/CatALogApp/" 
                 target="_blank"> 

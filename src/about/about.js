@@ -20,9 +20,9 @@ class About extends Component {
             <main>
             <p>While studying human languages as a PhD student at Yale, I developed an interest in computer languages. 
             That interest inspired me to enroll in a Thinkful’s Full Stack Web Development Program, which I will complete in August 2019.</p>
-            <p>I have developed my programming skills through a number of <Link to="/projects">projects</Link> and through applying syntax analysis methods I learned studying human languages to my work with computer languages.</p>
-            <p>I currently have experience with full-stack web development, HTML, CSS, Javascript, JQuery, Bootstrap, AngularJS, ReactJS. 
-                  I also have experience with UX/UI Design and technical writing. 
+            <p>I have developed my programming skills through a number of <Link to="/projects">projects</Link> and through applying syntax analysis methods I learned as a linguistics student.</p>
+            <p>I currently have experience with full-stack web development using technologies that include HTML, CSS, Javascript, JQuery, Node, PostgreSQL, Express, Bootstrap, AngularJS, ReactJS. 
+            I also have experience with UX/UI Design and technical writing, as well as with technologies such as GitHub and DBeaver.
                   I am excited to deepen my knowledge in these areas and expand it to others.</p>
             <p>When I am not working on programming, I enjoy ice skating and dancing, though I do not necessarily do either very well. I further enjoy writing, drawing, and cooking vegan meals, which I do moderately well.</p>
             <p>I am based in the Boston area, but am willing to work remotely or relocate. 

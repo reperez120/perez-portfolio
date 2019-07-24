@@ -14,7 +14,8 @@ class Contact extends Component {
         <div className='Contact'>
             <header className='contactHeader'>
                 <h1>Contact Me</h1>
-                <h3>Please feel free to contact me through any of the sources listed below.</h3>
+                <h3>Please feel free to contact me through any of the sources listed below by clicking on the corresponding text. 
+                  I am always interested in learning about new opportunities, receiving feedback on previous work, and hearing from people with similar interests.</h3>
             </header>
             <main>
                 <ul class="contacts">
