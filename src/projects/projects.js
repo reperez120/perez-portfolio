@@ -14,9 +14,65 @@ class Projects extends Component {
         <div className='Projects'>
             <header className='projectsHeader'>
                 <h1>Projects</h1>
+                <h3>Below is a selection of apps I developed.</h3>
             </header>
+            <br></br>
             <main>
               <h2>
+                What'll It Be?
+              </h2>
+                <p>
+                  What'll It Be is a full stack app that recommends drinks based on weather. This app recommends a beverage and provide its recipe to the user based on their location.
+                  It is comprised of an API that contains a list of beverage recipes that are organized by temperature. Client side, users input their location, which is sent to a gecoding and then a temperature API. 
+                  A drink is returned to users based on the temperature of the location they entered.
+                </p>
+                <div 
+                  className="WhatllItBeImage">
+                </div>
+                    <h3>Technologies Used:</h3> 
+                   <h4>HTML, CSS, JavaScript, React, PostGresSQL</h4>
+                  <h4> 
+                    <a href="https://whatll-it-be-app.reperez120.now.sh/" 
+                    target="_blank"> 
+                    Live Version
+                    </a> 
+                  </h4>
+                  <h4>
+                <a href="https://github.com/reperez120/whatll-it-be-app-client" 
+                target="_blank"> Client Repo
+                </a> 
+              </h4>  
+              <h4> 
+                <a href="https://github.com/reperez120/whatll-it-be-mvp"
+                target="_blank">
+                API Repo
+                </a>
+              </h4>
+              <br></br>
+              <h2>
+                Cat-A-Log
+              </h2>
+                <p>
+                The Cat-A-Log app uses the Cat API and the PetFinder API to display a list of cats with selected traits that are up for adoption in a specified area. The user selects desired traits in checkboxes and then inputs the desired zip code into an input box. Once the user clicks the form’s submit button, an event listener is triggered that fetches the Cat API, which contains a list of cat breeds and their characteristics, and returns an array of breeds that have the traits the user selected in the checkbox. The app next fetches the PetFinder API, which contains a list of pets up for adoption, and uses the breeds that were returned from the Cat API and the geographic area the user input as query parameters to return a list of cats with desired traits up for adoption in the user’s geographic area. The app then displays the returned array of cats’ names, photos, descriptions, and links to their adoption pages.
+                </p>
+                <div 
+                  className="CatALogImage">
+                </div>
+                <h3>Technologies Used: </h3> 
+                <h4>HTML, CSS, JavaScript, JQuery</h4>
+              <h4> 
+                <a href="https://reperez120.github.io/CatALogApp/" 
+                target="_blank"> 
+                Live Version
+                </a> 
+              </h4>
+              <h4> 
+                <a href="https://github.com/reperez120/CatALogApp" 
+                target="_blank"> Repo Version
+                </a> 
+              </h4>
+              <h2>
+              <br></br>
                 A Hard Day's Night
               </h2>
                 <p>
@@ -27,73 +83,22 @@ class Projects extends Component {
                 <div 
                   className="HardDaysImage">
                 </div>
-              <p>
-                <b>Technologies Used: </b> 
-                HTML, CSS, JavaScript, JQuery</p>
-              <p> 
-                <a href="https://reperez120.github.io/Beatles-Quiz" 
-                target="_blank"> 
-                Live Version
+                <h3>
+                  Technologies Used: 
+                </h3>
+                <h4>HTML, CSS, JavaScript, JQuery</h4>
+                <h4>
+                  <a href="https://reperez120.github.io/Beatles-Quiz" 
+                  target="_blank"> 
+                  Live Version
                 </a> 
-              </p>
-              <p> 
+                </h4>
+              <h4> 
                 <a href="https://github.com/reperez120/Beatles-Quiz" 
                 target="_blank"> Repo Version
                 </a> 
-              </p>
-              <h2>
-                What'll It Be?
-              </h2>
-                <p>
-                  An app that recommends drinks based on weather.
-                </p>
-                <div 
-                  className="WhatllItBeImage">
-                </div>
-              <p>
-                <b>Technologies Used: </b> 
-                HTML, CSS, JavaScript, React, PostGresSQL</p>
-              <p> 
-                <a href="https://whatll-it-be-app.reperez120.now.sh/" 
-                target="_blank"> 
-                Live Version
-                </a> 
-              </p>
-              <p> 
-                <a href="https://github.com/reperez120/whatll-it-be-app-client" 
-                target="_blank"> Client Repo
-                </a> 
-              </p>  
-              <p> 
-                <a href="https://github.com/reperez120/whatll-it-be-mvp"
-                target="_blank">
-                API Repo
-                </a> 
-              </p>
-              <h2>
-                Cat-A-Log
-              </h2>
-                <p>
-                The Cat-A-Log app uses the Cat API and the PetFinder API to display a list of cats with selected traits that are up for adoption in a specified area. The user selects desired traits in checkboxes and then inputs the desired zip code into an input box. Once the user clicks the form’s submit button, an event listener is triggered that fetches the Cat API, which contains a list of cat breeds and their characteristics, and returns an array of breeds that have the traits the user selected in the checkbox. The app next fetches the PetFinder API, which contains a list of pets up for adoption, and uses the breeds that were returned from the Cat API and the geographic area the user input as query parameters to return a list of cats with desired traits up for adoption in the user’s geographic area. The app then displays the returned array of cats’ names, photos, descriptions, and links to their adoption pages.
-                </p>
-                <div 
-                  className="CatALogImage">
-                </div>
-              <p>
-                <b>Technologies Used: </b> 
-                HTML, CSS, JavaScript, JQuery</p>
-              <p> 
-                <a href="https://reperez120.github.io/CatALogFinalDraft/" 
-                target="_blank"> 
-                Live Version
-                </a> 
-              </p>
-              <p> 
-                <a href="https://github.com/reperez120/CatALogFinalDraft" 
-                target="_blank"> Repo Version
-                </a> 
-              </p>
-             
+              </h4>
+              <br></br>
           </main>
         </div>
       );

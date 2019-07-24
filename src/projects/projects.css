@@ -51,7 +51,7 @@
   display: flex;
   flex-direction: column;
   background-position: center;
-  background-image: url("https://user-images.githubusercontent.com/46304321/56616934-9cde1c80-65ec-11e9-88d7-39a18a6546b1.png");
+  background-image: url("https://user-images.githubusercontent.com/46304321/61747207-e1648a00-ad8c-11e9-9e9d-edcaa4db2b4d.png");
   background-size: contain;
   background-repeat: no-repeat;
   align-items: center;
@@ -67,6 +67,6 @@
   text-align: center;
   margin-bottom: 1rem;
   margin-top: 0rem;
-  background-image: url("https://user-images.githubusercontent.com/46304321/56616934-9cde1c80-65ec-11e9-88d7-39a18a6546b1.png");
+  background-image: url("https://user-images.githubusercontent.com/46304321/61747207-e1648a00-ad8c-11e9-9e9d-edcaa4db2b4d.png");
   }
 }  
