@@ -28,7 +28,7 @@ class About extends Component {
                   Please feel free to <Link to="/contact">contact me</Link> if you have any opportunities that might be a good fit, if you have any questions, 
                   or if you just are interested in discussing the finer points of learning React.</p>
                   <p>When I am not working on programming, I enjoy ice skating and dancing, though I do not necessarily do either very well. 
-              I further enjoy writing, drawing, and cooking vegan meals, which I do moderately well.</p>
+              I further enjoy photography, drawing, and cooking vegan meals, which I do moderately well.</p>
             </main>
         </div>
       );

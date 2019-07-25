@@ -7,7 +7,6 @@ import Home from '../home/home';
 import Projects from '../projects/projects';
 import About from '../about/about';
 import Contact from '../contact/contact';
-import  hamburgerMenu from '../hamburgerMenu';
 import './App.css';
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
       <header className="App-header">
       <h1>Rachel Perez Portfolio</h1>
       <nav className="navbar">
-      {/* <div class="hamburger">&#9776;</div>  */}
        <ul className="menu">
         <Link to="/">
           <li>Home</li>
@@ -32,7 +30,6 @@ function App() {
         </Link>
         </ul> 
     </nav>
-    <hamburgerMenu/>
     </header>
     <main>
       <Route 
