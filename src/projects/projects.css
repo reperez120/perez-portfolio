@@ -1,3 +1,8 @@
+h3 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
 .HardDaysImage {
   display: flex;
   flex-direction: column;
@@ -7,21 +12,10 @@
   background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
-  height: 20rem;
+  height: 22rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-
-@media screen and (max-width: 480px) {
-  .HardDaysImage {
-  height: 8rem;  
-  text-align: center;
-  margin-bottom: 1rem;
-  margin-top: 0rem;
-  background-image: url("https://user-images.githubusercontent.com/46304321/53762550-69a5c980-3e96-11e9-9ad6-d8aeccf45265.png");
-  }
-}  
-
 
 .WhatllItBeImage {
   display: flex;
@@ -56,14 +50,14 @@
   background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
-  height: 20rem;
+  height: 18rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 480px) {
   .CatALogImage {
-  height: 8rem;  
+  height: 16rem;  
   text-align: center;
   margin-bottom: 1rem;
   margin-top: 0rem;

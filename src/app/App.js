@@ -15,9 +15,9 @@ function App() {
     <div className="App">
       <header className="App-header">
       <h1>Rachel Perez Portfolio</h1>
-      <nav class="navbar">
+      <nav className="navbar">
       {/* <div class="hamburger">&#9776;</div>  */}
-       <ul class="menu">
+       <ul className="menu">
         <Link to="/">
           <li>Home</li>
         </Link>

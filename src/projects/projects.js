@@ -14,7 +14,7 @@ class Projects extends Component {
         <div className='Projects'>
             <header className='projectsHeader'>
                 <h1>Projects</h1>
-                <h3>Below is a selection of apps I developed. For each, I have given the title, description, a list of technologies used, and links to live versions and GitHub repos. </h3>
+                <h3>Below is a selection of apps I developed. For each, I have provided the app name, a description, a screenshot, a list of technologies used, and links to the live version and GitHub repo. </h3>
             </header>
             <br></br>
             <main>
