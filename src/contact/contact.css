@@ -7,27 +7,35 @@ ul {
   margin-bottom: 3rem;
 }
 
+@media screen and (max-width: 480px) {
+  .contacts > li {
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+  }
+}
+
+
 .email {
   display: flex;
   flex-direction: column;
   background-position: center;
-  background-image: url("https://cdn.icon-icons.com/icons2/1416/PNG/512/basic-mail_97695.png");
+  background-image: url("https://image.flaticon.com/icons/png/512/131/131155.png");
   background-size: contain;
   background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
   height: 3rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: .5rem;
 }
 
 @media screen and (max-width: 480px) {
   .email {
   height: 3rem;  
   text-align: center;
-  margin-bottom: 1rem;
-  margin-top: 0rem;
-  background-image: url("https://cdn.icon-icons.com/icons2/1416/PNG/512/basic-mail_97695.png");
+  margin-bottom: .5rem;
+  margin-right: 2rem;
+  background-image: url("https://image.flaticon.com/icons/png/512/131/131155.png");
   }
 }  
 
@@ -42,15 +50,15 @@ ul {
   justify-content: center;
   height: 4rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: .5rem;
 }
 
 @media screen and (max-width: 480px) {
   .github {
   height: 4rem;  
   text-align: center;
-  margin-bottom: 1rem;
-  margin-top: 0rem;
+  margin-bottom: .5rem;
+  margin-right: 2rem;
   background-image: url("https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png");
   }
 }  
@@ -66,15 +74,15 @@ ul {
   justify-content: center;
   height: 2rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 480px) {
   .linkedin {
   height: 2rem;  
   text-align: center;
-  margin-bottom: 1rem;
-  margin-top: 0rem;
+  margin-bottom: .5rem;
+  margin-right: 2rem;
   background-image: url("https://image.flaticon.com/icons/svg/34/34227.svg");
   }
 }  

@@ -18,28 +18,28 @@ class Contact extends Component {
                   I am always interested in learning about new opportunities, receiving feedback on previous work, and hearing from people with similar interests.</h3>
             </header>
             <main>
-                <ul class="contacts">
+                <ul className="contacts">
                   <div className="email">
                   </div>
                   <li> 
                     <address> 
-                      <a class="link" href= "mailto:reperez@me.com">Email</a>
+                      <a className="link" href= "mailto:reperez@me.com">Email</a>
                     </address> 
-                  </li>
-                  <div className="github">
-                  </div>
-                  <li>
-                    <a class="link" href="https://github.com/reperez120" 
-                    target="_blank">GitHub
-                    </a>
                   </li>
                   <div className="linkedin">
                   </div> 
                   <li>
-                    <a class="link" href="https://www.linkedin.com/in/rachel-e-perez/" 
+                    <a className="link" href="https://www.linkedin.com/in/rachel-e-perez/" 
                       target="_blank">LinkedIn
                     </a>
                   </li> 
+                  <div className="github">
+                  </div>
+                  <li>
+                    <a className="link" href="https://github.com/reperez120" 
+                    target="_blank">GitHub
+                    </a>
+                  </li>
             </ul>
           </main>
         </div>
