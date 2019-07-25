@@ -19,7 +19,7 @@ class About extends Component {
             </header>
             <main>
             <p>While studying human languages as a PhD student at Yale, I developed an interest in computer languages. 
-            That interest inspired me to enroll in a Thinkful’s Full Stack Web Development Program, which I will complete in August 2019.</p>
+            That interest inspired me to enroll in Thinkful’s Full Stack Web Development Program, which I will complete in August 2019.</p>
             <p>I have developed my programming skills through a number of <Link to="/projects">projects</Link> and through applying syntax analysis methods I learned as a linguistics student.</p>
             <p>I currently have experience with full-stack web development using technologies that include HTML, CSS, Javascript, JQuery, Node, PostgreSQL, Express, Bootstrap, AngularJS, ReactJS. 
             I also have experience with UX/UI Design and technical writing, as well as with technologies such as GitHub and DBeaver.
