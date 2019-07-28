@@ -18,6 +18,37 @@ class Projects extends Component {
             </header>
             <br></br>
             <main>
+            <h2>
+                Write Now
+              </h2>
+                <p>
+                  Write Now is a full stack app designed to help people who are practicing their writing skills by providing randomly generated writing prompts. 
+                  The back end is an API that is composed of lists of words that are organized by part of speech.
+                  When a user hits a form submit button on the client side, the front end fetches words from each part of speech category from the API to form a random sentence that can serve as a writing prompt.
+                </p>
+                <div 
+                  className="WriteNowImage">
+                </div>
+                    <h3>Technologies Used:</h3> 
+                   <h4>HTML, CSS, JavaScript, React, Node, Express, PostGreSQL</h4>
+                  <h4> 
+                    <a href="https://write-now-app.reperez120.now.sh/" 
+                    target="_blank"> 
+                    Live Version
+                    </a> 
+                  </h4>
+                  <h4>
+                <a href="https://github.com/reperez120/write-now-client" 
+                target="_blank"> Client Repo
+                </a> 
+              </h4>  
+              <h4> 
+                <a href="https://github.com/reperez120/write-now-api"
+                target="_blank">
+                API Repo
+                </a>
+              </h4>
+              <br></br>
               <h2>
                 What'll It Be?
               </h2>
